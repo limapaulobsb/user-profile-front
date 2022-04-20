@@ -32,5 +32,5 @@ jobs:
       - name: Installation of dependencies
         run: npm install
 
-      - name: Run ESLint
+      - name: Run stylelint
         run: npx stylelint "**/*.css"
